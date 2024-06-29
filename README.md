@@ -22,5 +22,9 @@ The websites provides CRUD functionality for the database in the form of;
 ![Profile Page Screenshot](/screenshots/Screenshot_profile.png)
 
 
+**View Post Page**
+![View Post Page Screenshot](/screenshots/Screenshot_viewPost.png)
+
+
 **Edit Post Page**
 ![Edit Post Page Screenshot](/screenshots/Screenshot_editPost.png)
