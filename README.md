@@ -8,3 +8,18 @@ The websites provides CRUD functionality for the database in the form of;
 - Editing and updating a users post, comment, and personal profile details.
 - Deleting a post or comment.
 
+
+**SignUp Page**
+![SignUp Page Screenshot](screenshots/Screenshot_signup)
+
+
+**Login Page**
+![Login Page Screenshot](screenshots/Screenshot_login)
+
+
+**Profile Page**
+![Profile Page Screenshot](screenshots/Screenshot_profile)
+
+
+**Edit Post Page**
+![Edit Post Page Screenshot](screenshots/Screenshot_editPost)
