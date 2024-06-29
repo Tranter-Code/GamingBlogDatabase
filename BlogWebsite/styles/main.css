@@ -1,0 +1,448 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+header{
+    position: fixed;
+    top: 0%;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    height: 60px;
+    width: 100%;
+    background: #1e1e1e;
+    margin-bottom: 10px;
+}
+.logo_temp{
+    float: left;
+    color: #dadada;
+    margin-top: 15px;
+    margin-left: 15px;
+    align-self: center;
+
+}
+.logged_in{
+    font-size: 11px;
+    float: right;
+    align-self: center;
+    color: #dadada;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 7px;
+}
+ul{
+    float: right;
+    margin-right: 10px;
+}
+ ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 5px 5px;
+}
+nav ul li a{
+    color: #dadada;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    align-self: center;
+    transition: all .3s;
+    
+}
+a.nav_button:hover{
+    background: #dadada;
+    color: #1e1e1e;
+    transition: .5s;
+}
+
+
+
+footer{
+    float: left;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background: #1e1e1e;
+    color: #dadada;
+    font-size: 15px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+
+.main{
+    margin: 0 auto;
+    margin-top: 60px;
+    min-height: calc(100vh - 60px - 47px - 15px);
+    justify-content: center;
+    padding-top: 25px;
+}
+.main_heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+
+.signup_login{
+    text-align: center;
+    background-color: #dadada;
+    border-radius: 20px;
+    padding: 20px;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 25px;
+    transition: all .3s;
+}
+.form_heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 20px;
+}
+input[type=text], select, textarea{
+    align-self: center;
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    margin: 10px;
+}
+input[type=email], select, textarea{
+    align-self: center;
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    margin: 10px;
+}
+input[type=password], select, textarea{
+    align-self: center;
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    margin: 10px;
+}
+button[type=submit]{
+    padding: 12px 30px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: #2196F3;
+    color: #dadada;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+button[type=submit]:hover{
+    background: #1976D2;
+}
+button[type=submit]:active{
+    background: #0D47A1;
+}
+.post_txt{
+    width: 70%;
+    min-height: 150px;
+}
+
+
+
+.error_msg{
+    background-color: #ea8e8e;
+    border-radius: 20px;
+    padding: 12px;
+    margin: auto;
+    color: #1e1e1e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 25%;
+    text-align: center;
+    justify-self: center;
+}
+.notif_msg{
+    background-color: #acbafe;
+    border-radius: 20px;
+    padding: 12px;
+    margin: auto;
+    color: #1e1e1e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 25%;
+    text-align: center;
+    justify-self: center;
+}
+
+.section2{
+    width: 60%;
+    margin: 10px;
+    transition: all .3s;
+}
+.post_box{
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #dadada;
+    padding:10px;
+    border-radius: 10px;
+    height: 200px;
+    transition: all .3s;
+}
+.post_info{
+    float: right;
+    text-align: right;
+    margin-top: 10px;
+}
+.post{
+    --max-lines: 3;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
+}
+.post_title{
+    margin-bottom: 5px;
+    font-size: 22px;
+}
+.posted_usr{
+    margin-bottom: 5px;
+}
+.posted_genre{
+    margin-bottom: 5px;
+}
+
+.prfl_post_box{
+    align-self: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+    float: left;
+    background-color: #dadada;
+    margin: 5px;
+    padding:10px;
+    border-radius: 10px;
+    height: auto;
+}
+
+
+.section1{
+    position: fixed;   
+    right: 20px;
+    width: 35%;
+    float: right;
+    margin: 0 auto;
+    transition: all .3s;
+}
+.user_info{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float: right;
+    width: 100%;
+    background-color: #dadada;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 10px; 
+    text-align: center;
+}
+.box_heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.data_labels{
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.usr_data{
+    float: right;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.option{
+    align-self: center;
+    margin-top: 40px;
+}
+
+.postbtn{
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+}
+button[type=post]{
+    padding: 12px 30px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: #2196F3;
+    color: #f6f6f6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+button[type=post]:hover{
+    background: #1976D2;
+}
+button[type=post]:active{
+    background: #0D47A1;
+}
+
+
+.newpostform{
+    text-align: center;
+    background-color: #dadada;
+    border-radius: 20px;
+    padding: 20px;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 25px;
+    transition: all .3s;
+}
+.newcommentform{
+    float: left;
+    text-align: center;
+    background-color: #dadada;
+    width: 55%;
+    margin-left: 22.5%;
+    padding: 20px;
+    border-radius: 20px;
+    transition: all .3s;
+}
+.comment_txt{
+    width: 85%;
+}
+
+
+.main_post_box{
+    align-self: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 90%;
+    float: left;
+    background-color: #dadada;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 25px;
+    padding:10px;
+    border-radius: 10px;
+    height: auto;
+}
+.post_big{
+    width: 65%;
+}
+
+.comment_box{
+    align-self: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 40%;
+    float: left;
+    background-color: #dadada;
+    margin-left: 30%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding:10px;
+    border-radius: 10px;
+    height: auto;
+    transition: all .3s;
+}
+.comment_info{
+    text-align: right;
+    float: right;
+    margin-top: 20px;
+}
+.commented_usr{
+    margin-bottom: 5px;
+}
+.date_commented{
+    margin-bottom: 5px;
+}
+
+.confirm_del_msg{
+    border-radius: 10px;
+    background: #dadada;
+    width: 60%;
+    margin-left: 20%;
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button[type=delete]{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background: #1e1e1e;
+    color: #f6f6f6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+button[type=delete]:hover{
+    background: #292929;
+}
+button[type=delete]:active{
+    background: #864848;
+}
+
+
+@media (max-width: 1050px){
+    .section1{
+        width: 45%;
+        transition: all .3s;
+    }
+    .section2{
+        width: 50%;
+        transition: all .3s;
+    }
+}
+@media (max-width: 950px){
+    .post_box{
+        width: 80%;
+        margin-left: 10%;
+        transition: all .3s;
+    }
+    .section1{
+        width: 80%;
+        position: static;
+        float: left;
+        margin-right: 10%;
+        margin-left: 10%;
+        transition: all .3s;
+    }
+    .user_info{
+        margin: 0%;
+    }
+    .section2{
+        width: 80%;
+        margin-left: 10%;
+        float: left;
+    }
+    .signup_login{
+        width: 90%;
+        margin-left: 5%;
+        transition: all .3s;
+    }
+    .newpostform{
+        width: 90%;
+        margin-left: 5%;
+        transition: all .3s;
+    }
+    .newcommentform{
+        width: 90%;
+        margin-left: 5%;
+        transition: all .3s;
+    }
+
+}
+
+@media (max-width: 850px){
+    .comment_box{
+        width: 70%;
+        margin-left: 15%;
+        transition: all .3s;
+    }
+}
