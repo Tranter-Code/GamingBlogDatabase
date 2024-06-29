@@ -11,16 +11,16 @@ The websites provides CRUD functionality for the database in the form of;
 
 
 **SignUp Page**
-![SignUp Page Screenshot](/screenshots/Screenshot_signup)
+![SignUp Page Screenshot](/screenshots/Screenshot_signup.png)
 
 
 **Login Page**
-![Login Page Screenshot](/screenshots/Screenshot_login)
+![Login Page Screenshot](/screenshots/Screenshot_login.png)
 
 
 **Profile Page**
-![Profile Page Screenshot](/screenshots/Screenshot_profile)
+![Profile Page Screenshot](/screenshots/Screenshot_profile.png)
 
 
 **Edit Post Page**
-![Edit Post Page Screenshot](/screenshots/Screenshot_editPost)
+![Edit Post Page Screenshot](/screenshots/Screenshot_editPost.png)
